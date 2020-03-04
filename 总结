@@ -1,0 +1,10 @@
+spring整合CXF
+包含了实体类如何使用webservice
+1、建立server端更改web.xml，导入相关包，server为war
+2、建立spring整合CXF的xml
+3、建立domain相关实体类
+4、建立service，发布服务。配置tomcat将服务发布到tomcat上。
+5、建立client端，导入相关包，client为jar
+6、建立client端spring整合CXF的xml
+7、通过wsimport生成接口相关类
+8、在SpringCxfClientTest中测试服务。
